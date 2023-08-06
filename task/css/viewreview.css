@@ -1,0 +1,117 @@
+/* Style for the main container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+/* Add this CSS to make the inputs and button inline horizontally */
+#keyword1,
+#keyword2,
+button[type="submit"] {
+    display: inline-block;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px; /* Add a margin to separate the button from the inputs */
+}
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 50%; /* Each review covers 50% of the display width */
+    box-sizing: border-box; /* Include padding and border within the width */
+    float: left; /* Float the reviews to the left to create two columns */
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.review strong {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.pagination-link {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: blue;
+    margin: 5px;
+    }
+
+.pagination-link:hover {
+    text-decoration: underline;
+    }
+
+
+.no-rating-msg {
+        color: red;
+        font-weight: bold;
+    }
+
+.edit-link {
+        display: block;
+        background-color: blue;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
